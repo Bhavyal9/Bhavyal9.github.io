@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Londrina+Outline&family=Londrina+Shadow&family=Londrina+Solid:wght@300&family=Open+Sans&family=Patrick+Hand&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+      integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>My Portfolio</title>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <input type="checkbox" id="check" />
+        <label for="check">
+          <i class="fas fa-bars" id="btn"></i>
+          <i class="fas fa-times" id="cancel"></i>
+        </label>
+        <ul>
+          <li><a href="#intro">About Me</a></li>
+          <li><a href="#carouselExampleIndicators">Education & Interest</a></li>
+          <li><a href="#project">Projects</a></li>
+          <li><a href="#experience">Experience</a></li>
+        </ul>
+      </nav>
+      <section id="intro">
+        <div class="slide">
+          <!-- Controller -->
+          <input type="radio" name="radio-btn" id="radio1" />
+          <input type="radio" name="radio-btn" id="radio2" />
+          <input type="radio" name="radio-btn" id="radio3" />
+
+          <div class="slide1">
+            <div class="content">
+              <span class="slide-content-span">Hi, I am Bhavya</span>
+              <p class="slide-content-para">
+                I am a Full Stack Web Developer currently learning some cool
+                stuff in 3rd Year.
+              </p>
+            </div>
+          </div>
+          <div class="slide2">
+            <div class="content">
+              <span class="slide-content-span">Creative Network</span>
+              <p class="slide-content-para">
+                I love to collaborate. I'm currently looking for other creative
+                minds to work grow and network.
+              </p>
+            </div>
+          </div>
+          <div class="slide3">
+            <div class="content">
+              <span class="slide-content-span">Excited To Explore</span>
+              <p class="slide-content-para">
+                I try to learn new things each day with a positve mind.
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- Manual Navigation -->
+        <div class="navigation-manual">
+          <label for="radio1" class="manual-btn manual-btn1"></label>
+          <label for="radio2" class="manual-btn manual-btn2"></label>
+          <label for="radio3" class="manual-btn manual-btn3"></label>
+        </div>
+      </section>
+    </header>
+    <section id="project">
+      <div class="project">
+        <h2>Project - Money Matters</h2>
+        <div class="proj-div">
+          <img src="Images/budget.png" />
+          <p>
+            The aim is to automate traditional ways of making budget, setting up
+            goals and tracking income and expenses. This project helps the user
+            to keep the track of income and expenses of each month. Personal
+            Finance Tool can be used to set goals. Users can also make a budget
+            and check if it’s according to the 40-30-20-10 budgeting rule. The
+            project helps the user to manage money and leverage their income in
+            the right direction.
+          </p>
+        </div>
+      </div>
+    </section>
+    <div
+      id="carouselExampleIndicators"
+      class="carousel slide"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="Images/s1.JPG" class="d-block w-100" alt="..." />
+        </div>
+        <div class="carousel-item">
+          <img src="Images/S2.JPG" class="d-block w-100" alt="..." />
+        </div>
+        <div class="carousel-item">
+          <img src="Images/S3.JPG" class="d-block w-100" alt="..." />
+        </div>
+        <div class="carousel-item">
+          <img src="Images/S4.JPG" class="d-block w-100" alt="..." />
+        </div>
+        <div class="carousel-item">
+          <img src="Images/S5.JPG" class="d-block w-100" alt="..." />
+        </div>
+        <div class="carousel-item">
+          <img src="Images/S6.JPG" class="d-block w-100" alt="..." />
+        </div>
+        <div class="carousel-item">
+          <img src="Images/S7.JPG" class="d-block w-100" alt="..." />
+        </div>
+      </div>
+      <a
+        class="carousel-control-prev"
+        href="#carouselExampleIndicators"
+        role="button"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </a>
+      <a
+        class="carousel-control-next"
+        href="#carouselExampleIndicators"
+        role="button"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </a>
+    </div>
+    <div id="experience">
+      <h2>Experience</h2>
+      <div class="exp">
+        <p>
+          I have worked as cluster lead at Happien Digital in my first year and
+          I must say that I really enjoyed working with them. It was online
+          internship which taught me importance of discipline, good
+          communication, gratitude and most crucial time management.
+          <br /><br />Apart from this, I am well versed with HTML, CSS,
+          Javascript, SEO, Digital Marketing, Photoshop and Python.
+        </p>
+        <img class="expImg" src="Images/Happien Digital.jpg" />
+      </div>
+    </div>
+    <section id="contact-me">
+      <h2>Connect With Me On :</h2>
+      <a href="mailto:bhavyal000009@gmail.com">
+        <i class="fas fa-envelope social"></i>
+      </a>
+      <a href="https://github.com/Bhavyal9">
+        <i class="fab fa-github social"></i
+      ></a>
+    </section>
+  </body>
+</html>
